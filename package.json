@@ -1,0 +1,23 @@
+{
+	"name": "broadcast_server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"broadcast-server": "./index.ts"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"type": "commonjs",
+	"dependencies": {
+		"ws": "^8.22.0"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.6",
+		"@types/ws": "^8.18.2",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	}
+}
